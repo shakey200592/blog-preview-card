@@ -49,12 +49,12 @@ body {
 .card {
     margin: 1rem;
     background-color: var(--white);
-    max-width: 384px;
+    max-width: 24rem; /* Converted 384px to rem (384 / 16 = 24rem) */
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    border: 1px solid var(--gray-950);
-    box-shadow: 8px 8px 0px 0px #111111;
+    border: 0.0625rem solid var(--gray-950); /* Converted 1px to rem (1px = 0.0625rem) */
+    box-shadow: 0.5rem 0.5rem 0 0 #111111; /* Converted 8px to rem */
     border-radius: 0.5rem;
 }
 
@@ -71,7 +71,7 @@ body {
     max-width: 25%;
     width: auto;
     font-weight: 800;
-    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    font-size: clamp(0.8rem, 2.5vw, 1rem); /* Responsive font size */
     border: none;
     border-radius: 0.2rem;
     overflow: hidden;
@@ -92,7 +92,7 @@ body {
 
 .card__author-image {
     max-width: 10%;
-    margin-right: 0.7rem;
+    margin-right: 0.4375rem; /* Converted 7px to rem */
 }
 
 .card__author-name {
@@ -103,7 +103,7 @@ body {
 /* Footer */
 .footer {
     margin-top: 1rem;
-    font-size: 11px;
+    font-size: 0.6875rem; /* Converted 11px to rem */
     text-align: center;
 }
 
