@@ -46,17 +46,16 @@ body {
     background-color: var(--white);
     max-width: 24rem; /* Converted 384px to rem (384 / 16 = 24rem) */
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     padding: 1rem;
-    gap: 0.5rem;
+    gap: 0.7rem;
     border: 0.0625rem solid var(--gray-950); /* Converted 1px to rem (1px = 0.0625rem) */
     box-shadow: 0.5rem 0.5rem 0 0 #111111; /* Converted 8px to rem */
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .card__image {
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .card__button {
@@ -64,7 +63,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.9rem 0;
     max-width: 25%;
     width: auto;
     font-weight: 800;
