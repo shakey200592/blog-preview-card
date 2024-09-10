@@ -71,7 +71,7 @@ body {
     max-width: 25%;
     width: auto;
     font-weight: 800;
-    font-size: clamp(0.8rem, 2.5vw, 1rem); /* Responsive font size */
+    font-size: clamp(0.7rem, 2.5vw, 1rem); /* Responsive font size */
     border: none;
     border-radius: 0.2rem;
     overflow: hidden;
