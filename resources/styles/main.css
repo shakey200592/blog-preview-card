@@ -40,19 +40,16 @@ body {
     padding: 1rem;
 }
 
-/* Shared margin and padding for card elements */
-.card__published, .card__content, .card__title, .card__description {
-    margin-bottom: 0.9rem;
-}
-
 /* Card Component */
 .card {
     margin: 1rem;
     background-color: var(--white);
     max-width: 24rem; /* Converted 384px to rem (384 / 16 = 24rem) */
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     padding: 1rem;
+    gap: 0.5rem;
     border: 0.0625rem solid var(--gray-950); /* Converted 1px to rem (1px = 0.0625rem) */
     box-shadow: 0.5rem 0.5rem 0 0 #111111; /* Converted 8px to rem */
     border-radius: 0.5rem;
@@ -71,7 +68,7 @@ body {
     max-width: 25%;
     width: auto;
     font-weight: 800;
-    font-size: clamp(0.7rem, 2.5vw, 1rem); /* Responsive font size */
+    font-size: clamp(0.7rem, 2.5vw, 0.9rem); /* Responsive font size */
     border: none;
     border-radius: 0.2rem;
     overflow: hidden;
